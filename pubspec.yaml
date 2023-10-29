@@ -50,18 +50,6 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
-# flutter_native_splash:
-#   color: "#f7f6f1"
-#   dark_color: "#272727"
-#   image: assets/images/books.png
-#   image-dark: assets/images/books.png
-
-#   android_12:
-#     image: assets/images/books.png
-#     icon_background_color: "#f7f6f1"
-#     image-dark: assets/images/books.png
-#     icon_background_color_dark: "#272727"
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -75,8 +63,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/forget_password/
     - assets/images/splash_images/
     - assets/images/on_boarding_images/
+    - assets/images/welcome_images/
+    - assets/logo/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
