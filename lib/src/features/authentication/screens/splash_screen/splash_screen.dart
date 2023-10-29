@@ -64,9 +64,9 @@ class SplashScreen extends StatelessWidget {
               child: AnimatedOpacity(
                 duration: const Duration(milliseconds: 1600),
                 opacity: splashController.animate.value ? 1 : 0,
-                child: Container(
+                child: const SizedBox(
                   height: 450,
-                  child: const Image(
+                  child: Image(
                     image: AssetImage(tSplashImage),
                     fit: BoxFit.cover,
                   ),
