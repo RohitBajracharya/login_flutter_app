@@ -1,3 +1,11 @@
+//global text
+const String tLogin = "Login";
+const String tSignup = "Signup";
+const String tEmail = "E-Mail";
+const String tPassword = "Password";
+const String tForgetPassword = "Forget Password?";
+const String tSignInWithGoogle = "Sign-In with Google";
+
 //splash screen text
 const String tAppName = ".appable/";
 const String tAppTagLine = "Learn to Code. \nFree For Everyone";
@@ -17,6 +25,8 @@ const String tOnBoardingCounter3 = "3/3";
 const String tWelcomeTitle = "Build Awesome Apps";
 const String tWelcomeSubTitle = "Let's put your creativity on the development highway, craft apps thta everyone loves.";
 
-//generic text
-const String tLogin = "Login";
-const String tSignup = "Signup";
+// login screen text
+const String tLoginTitle = "Welcome Back,";
+const String tLoginSubTitle = "Make it work, make it right, make it fast.";
+const String tRememberMe = "Remember Me?";
+const String tAlreadyHaveAnAccount = "Already have an Account?";
