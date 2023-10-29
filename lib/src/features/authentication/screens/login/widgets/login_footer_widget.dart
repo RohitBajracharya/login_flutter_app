@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../../constants/image_strings.dart';
-import '../../../../constants/sizes.dart';
-import '../../../../constants/text_strings.dart';
+import '../../../../../constants/image_strings.dart';
+import '../../../../../constants/sizes.dart';
+import '../../../../../constants/text_strings.dart';
 
 class LoginFooterWidget extends StatelessWidget {
   const LoginFooterWidget({
@@ -35,7 +35,7 @@ class LoginFooterWidget extends StatelessWidget {
           onPressed: () {},
           child: Text.rich(
             TextSpan(
-              text: tAlreadyHaveAnAccount,
+              text: tDontHaveAnAccount,
               style: Theme.of(context).textTheme.bodyLarge,
               children: const [
                 TextSpan(
