@@ -52,3 +52,13 @@ const String tNext = "Next";
 const String tOtpTitle = "CO\nDE";
 const String tOtpSubTitle = "Verification";
 const String tOtpMessage = "Enter verification code sent at";
+
+// dashboard screen text
+const String tDashboardTitle = "Hey, Bajra";
+const String tDashboardHeading = "Explore Courses";
+const String tDashboardSearch = "Search...";
+const String tDashboardBannerTitle1 = "Android for Beginners";
+const String tDashboardBannerTitle2 = "Java";
+const String tDashboardBannerSubTitle = "10 lessons";
+const String tDashboardButton = "View All";
+const String tDashboardTopCourses = "Top Courses";

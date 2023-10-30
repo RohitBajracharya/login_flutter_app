@@ -15,3 +15,14 @@ const String tGoogleLogoImage = "assets/logo/google-logo.png";
 
 //forget password images
 const String tForgetPasswordImage = "assets/images/forget_password/forget-password.png";
+
+//dashboard images
+const String tUserProfileImage = "assets/images/dashboard/dash-person.png";
+const String tBannerImage1 = "assets/images/dashboard/dash-01.png";
+const String tBannerImage2 = "assets/images/dashboard/dash-02.png";
+const String tTopCourseImage1 = "assets/images/dashboard/dash-03.png";
+const String tTopCourseImage2 = "assets/images/dashboard/dash-04.png";
+const String tTopCourseImage3 = "assets/images/dashboard/dash-05.png";
+const String tTopCourseImage4 = "assets/images/dashboard/dash-06.png";
+const String tTopCourseImage5 = "assets/images/dashboard/dash-07.png";
+const String tBookmarkIcon = "assets/images/dashboard/bookmark.png";
