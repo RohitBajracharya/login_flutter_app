@@ -47,3 +47,8 @@ const String tResetViaPhone = "Reset via Phone Verificaiton";
 const String tForgetPhoneSubTitle = "Enter your registered Phone No to receive OTP";
 const String tForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
 const String tNext = "Next";
+
+// OTP screen text
+const String tOtpTitle = "CO\nDE";
+const String tOtpSubTitle = "Verification";
+const String tOtpMessage = "Enter verification code sent at";

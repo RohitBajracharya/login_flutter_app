@@ -11,6 +11,7 @@ class TTextTheme {
     titleMedium: GoogleFonts.montserrat(
       color: Colors.black54,
       fontSize: 24.0,
+      fontWeight: FontWeight.bold,
     ),
     headlineMedium: GoogleFonts.montserrat(
       color: Colors.black87,
