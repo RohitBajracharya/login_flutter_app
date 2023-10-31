@@ -41,6 +41,7 @@ dependencies:
   flutter_otp_text_field: ^1.1.1
   firebase_core: ^2.20.0
   firebase_auth: ^4.12.0
+  line_awesome_flutter: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +67,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/profile/
     - assets/images/dashboard/
     - assets/images/forget_password/
     - assets/images/splash_images/

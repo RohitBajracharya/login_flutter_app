@@ -26,3 +26,6 @@ const String tTopCourseImage3 = "assets/images/dashboard/dash-05.png";
 const String tTopCourseImage4 = "assets/images/dashboard/dash-06.png";
 const String tTopCourseImage5 = "assets/images/dashboard/dash-07.png";
 const String tBookmarkIcon = "assets/images/dashboard/bookmark.png";
+
+//profile images
+const String tProfileImage = "assets/images/profile/profile-pic.png";

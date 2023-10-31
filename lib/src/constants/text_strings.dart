@@ -62,3 +62,21 @@ const String tDashboardBannerTitle2 = "Java";
 const String tDashboardBannerSubTitle = "10 lessons";
 const String tDashboardButton = "View All";
 const String tDashboardTopCourses = "Top Courses";
+
+//profile screen text
+const String tProfile = "Profile";
+const String tEditProfile = "Edit Profile";
+const String tLogout = "Logout";
+const String tProfileHeading = "Rohit Bajra";
+const String tProfileSubHeading = "rohitbajra2001@gmail.com";
+
+const String tMenu5 = tLogout;
+const String tMenu1 = "Settings";
+const String tMenu4 = "Information";
+const String tMenu2 = "Billing Details";
+const String tMenu3 = "User Management";
+
+//update profile screen text
+const String tDelete = "Delete";
+const String tJoined = "Joined";
+const String tJoinedAt = " 31 October 2023";
