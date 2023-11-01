@@ -8,7 +8,10 @@ import 'package:login_app/src/constants/image_strings.dart';
 import 'package:login_app/src/constants/sizes.dart';
 import 'package:login_app/src/constants/text_strings.dart';
 import 'package:login_app/src/features/core/screens/profile/update_profile_screen.dart';
+import 'package:login_app/src/features/core/screens/profile/user%20management/user_management_screen.dart';
 import 'package:login_app/src/features/core/screens/profile/widgets/profile_menu.dart';
+
+import '../../../../repository/authentication_repository/authentication_repository.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -118,7 +121,9 @@ class ProfileScreen extends StatelessWidget {
               ProfileMenuWidget(
                 title: tMenu3,
                 icon: LineAwesomeIcons.user_check,
-                onPress: () {},
+                onPress: () {
+                  Get.to(const UserManagementScrren());
+                },
               ),
               const Divider(color: Colors.grey),
               const SizedBox(height: 10),
@@ -132,7 +137,9 @@ class ProfileScreen extends StatelessWidget {
                 icon: LineAwesomeIcons.alternate_sign_in,
                 textColor: Colors.red,
                 endIcon: false,
-                onPress: () {},
+                onPress: () {
+                  AuthenticationRepository.instance.logout();
+                },
               ),
             ],
           ),

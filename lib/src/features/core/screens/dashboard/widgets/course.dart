@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/src/constants/image_strings.dart';
 import 'package:login_app/src/features/core/models/dashboard/top_courses_model.dart';
 
 import '../../../../../constants/color.dart';

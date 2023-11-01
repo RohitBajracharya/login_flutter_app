@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/src/constants/color.dart';
-import 'package:login_app/src/constants/image_strings.dart';
 import 'package:login_app/src/constants/sizes.dart';
 import 'package:login_app/src/constants/text_strings.dart';
 import 'package:login_app/src/features/core/screens/dashboard/widgets/appbar.dart';
@@ -16,7 +14,7 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     return Scaffold(
-      appBar: DashboardAppBar(),
+      appBar: const DashboardAppBar(),
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.all(tDashboardPadding),

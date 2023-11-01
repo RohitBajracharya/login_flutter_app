@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:login_app/src/features/authentication/controllers/login_controller.dart';
-import 'package:login_app/src/features/core/screens/dashboard/dashboard.dart';
 
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
